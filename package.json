@@ -7,6 +7,9 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@tensorflow/tfjs": "^4.13.0",
+    "@tensorflow/tfjs-vis": "^1.5.1",
+    "axios": "^1.6.0",
     "core-js": "^3.8.3",
     "vue": "^3.2.13"
   },
@@ -14,7 +17,8 @@
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
     "sass": "^1.32.7",
-    "sass-loader": "^12.0.0"
+    "sass-loader": "^12.0.0",
+    "vue-drawing-canvas": "^1.0.14"
   },
   "browserslist": [
     "> 1%",
