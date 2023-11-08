@@ -27,7 +27,7 @@ x_test = tf.keras.utils.normalize(x_test, axis=1)
 
 
 app = FastAPI()
-origins = ["*"]  # Możesz dostosować te źródła do swoich potrzeb
+origins = ["*"]
 
 app.add_middleware(
     CORSMiddleware,
